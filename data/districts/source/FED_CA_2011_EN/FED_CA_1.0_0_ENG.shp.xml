@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet href="metadata_en.xsl" type="text/xsl"?>
+<!DOCTYPE metadata SYSTEM "http://www.fgdc.gov/metadata/fgdc-std-001-1998.dtd">
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>Electoral Geography Division - Elections Canada</origin>
+				<pubdate>March 2010.</pubdate>
+				<title>FED_CA_1_0_ENG</title>
+				<edition>1.0</edition>
+				<geoform>vector digital data</geoform>
+				<pubinfo>
+					<pubplace>Ottawa</pubplace>
+					<publish>Electoral Geography Division - Elections Canada</publish>
+				</pubinfo>
+				<onlink>Server=ecgis; Service=ecgis_egdd2; User=egd_ntrl; Version=SDE.DEFAULT</onlink>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>Canada is divided into 308 electoral districts. A representative or member of Parliament is elected for each electoral district.
+Following the release of population counts from each decennial census, the Chief Electoral Officer determines the number of seats in the House of Commons and publishes the information in the Canada Gazette. Electoral boundaries commissions then determine the adjustments to the constituency boundaries. The federal electoral boundaries commissions are independent bodies that make all decisions regarding the proposed and final federal electoral boundaries.
+Elections Canada provides support services to the boundaries commission in each province.
+Based on reports from these commissions, the Chief Electoral Officer prepares a representation order that describes the boundaries and specifies the name and the population of each FED. The representation order is in force on the first dissolution of Parliament that occurs at least one year after its proclamation. The 2003 Representation Order (proclaimed on August 25, 2003) was based on 2001 Census population counts, and increased the number of FEDs to 308, up from 301 from the previous 1996 Representation Order. Ontario received three additional seats, while Alberta and British Columbia each gained two seats. The names of FEDs may change at any time through an Act of Parliament.</abstract>
+			<purpose>To provide the public with a digital representation of the 308 electoral district boundaries.
+This dataset is not to be used for defining or delineating boundaries that would normally be described by legal documents and/or legal survey plans.</purpose>
+		</descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>2010</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>March 2010</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>As needed</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>
+-180.000000</westbc>
+				<eastbc>
+180.000000</eastbc>
+				<northbc>
+89.999531</northbc>
+				<southbc>
+36.265059</southbc>
+			</bounding>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekey>Federal Electoral District</themekey>
+				<themekey>FED</themekey>
+				<themekey>ED</themekey>
+				<themekey>Electoral District</themekey>
+				<themekey>Riding</themekey>
+				<themekey>Electoral Boundary</themekey>
+			</theme>
+			<place>
+				<placekey>Canada</placekey>
+			</place>
+		</keywords>
+		<accconst>Unrestricted use license agreement</accconst>
+		<useconst>Unrestricted use license agreement</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Elections Canada</cntorg>
+					<cntper>Electoral Geography Division</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>257 Slater Street</address>
+					<city>Ottawa</city>
+					<state>Ontario</state>
+					<postal>K1A0M6</postal>
+					<country>Canada</country>
+				</cntaddr>
+				<cntvoice>1-800-463-6868</cntvoice>
+				<cntfax>613-954-8584</cntfax>
+				<cntemail>geoservices@elections.ca</cntemail>
+				<hours>8:00 - 16:00</hours>
+			</cntinfo>
+		</ptcontac>
+		<datacred>Electoral Geography Division - Elections Canada</datacred>
+		<secinfo>
+			<secclass>Unclassified</secclass>
+		</secinfo>
+		<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.3.1.3000</native>
+	</idinfo>
+	<dataqual>
+		<attracc>
+			<attraccr>The domain values assigned to the item fields of the FED dataset are validated against those domain values described in the Federal Electoral Districts Feature Catalogue.</attraccr>
+		</attracc>
+		<logic>The delineation of the FED boundaries was created in reference to the National Geographic Database (NGD) road network and the NGD reference base layers. The representation of the digital electoral districts abides by the official boundary definition as established by the 2003 federal electoral boundaries commissions, as amended.
+The FED dataset provides for complete national coverage of the entire country. There are no gaps or overlays between any of the FED polygon features present in any of the datasets.
+The conceptual model of the FED data is presented in the document Federal Electoral Districts: Conceptual Data Model accessible on the GeoBase portal (www.geobase.ca).</logic>
+		<complete>The FED dataset provides complete national coverage for the whole of Canada; this includes the 10 provinces and three northern territories. All polygon features are linked to a corresponding attribute record.</complete>
+		<posacc>
+			<horizpa>
+				<horizpar>The absolute external positional accuracy describes the degree to which the position of features in a geographic database reflects their true position on the ground. It is the difference in the distances measured between two known points on a map and the true distances between the same two points, as established by conventional surveying methods.
+The absolute positional accuracy of the spatial entities comprising the FED dataset is dependent on the absolute accuracy of the different feature sets used in the creation of the FED boundaries. Federal electoral districts are derived by performing a spatial dissolve of the electoral polling divisions within each electoral district. The spatial elements that are used to represent a polling division boundary include both human-made features such as roads, railways, power lines and other natural features such as lakes, shorelines and rivers. In addition, many boundary elements follow survey lines, such as those defining the limits for a town, county or township.
+Additional information on the positional accuracy of the FED digital dataset and the data features used in the creation of the electoral district boundaries can be found at http://dsp-psd.pwgsc.gc.ca/collection_2009/statcan/92-500-G/92-500-g2009001-eng.pdf.
+The base features that define a poll division are derived from multiple data sources, including both digital and paper maps based on 1:10 000 to 1:1 000 000 scale source data. Some of these data sources have known levels of positional accuracy while others do not. Ongoing maintenance and update processes have introduced additional levels of spatial inaccuracies into the datasets.
+In this context, it is impossible to accurately ascribe a level of positional accuracy to the dataset. All that can be stated about the data is that for most urban and built-up areas, data were sourced from 1:50 000 data (accuracy ±10 metres); rural areas in southern parts of Canada were sourced using data from 1:250 000 data (accuracy ±300 metres); and the northern areas of Canada used data from 1:1 000 000 (accuracy ±2100 to ±4300 metres).
+There are also digital elements sourced from the NGD road network whose positional accuracy cannot be described. These arc elements were digitized on screen from paper maps, and although accurate in their attribute information and their relative position in relation to other map features, the absolute positional accuracy of these FED road network-derived elements cannot be accurately quantified.</horizpar>
+			</horizpa>
+		</posacc>
+		<lineage>
+			<srcinfo>
+				<srcscale>1:50,000, 1:250,000, 1:1,000,000</srcscale>
+				<typesrc>online</typesrc>
+				<srccitea>EGD</srccitea>
+				<srccontr>The FED dataset is created by performing a spatial dissolve on the polling division boundaries associated with each main electoral district. The underlying boundary elements that make up a polling division are derived from various base-layer features, including the road network, hydrographic features and other human-made features such as railways, power transmission lines and municipal limits. The accuracy of individual boundary features found in the electoral district dataset is therefore associated with the accuracy of the base-layer elements from which they were derived.</srccontr>
+			</srcinfo>
+			<procstep>
+				<procdesc>The FED dataset is created by performing a spatial dissolve on the polling division boundaries associated with each main electoral district. The underlying boundary elements that make up a polling division are derived from various base-layer features, including the road network, hydrographic features and other human-made features such as railways, power transmission lines and municipal limits. The accuracy of individual boundary features found in the electoral district dataset is therefore associated with the accuracy of the base-layer elements from which they were derived.
+The base features that define a poll division are derived from multiple data sources, including both digital and paper maps based on 1:10 000 to 1:1 000 000 scale source data. Some of these data sources have known levels of positional accuracy while others do not. Ongoing maintenance and update processes have introduced additional levels of spatial inaccuracies into the datasets.
+In this context, it is impossible to accurately ascribe a level of positional accuracy to the dataset. All that can be stated about the data is that for most urban and built-up areas, data were sourced from 1:50 000 data (accuracy ±10 metres); rural areas in southern parts of Canada were sourced using data from 1:250 000 data (accuracy ±300 metres); and the northern areas of Canada used data from 1:1 000 000 (accuracy ±2100 to ±4300 metres).
+There are also digital elements sourced from the NGD road network whose positional accuracy cannot be described. These arc elements were digitized on screen from paper maps, and although accurate in their attribute information and their relative position in relation to other map features, the absolute positional accuracy of these FED road network-derived elements cannot be accurately quantified.</procdesc>
+				<proccont>
+					<cntinfo>
+						<cntorgp>
+							<cntorg>Elections Canada</cntorg>
+							<cntper>Electoral Geography Division</cntper>
+						</cntorgp>
+						<cntvoice>1-800-463-6868</cntvoice>
+						<cntfax>613-954-8584</cntfax>
+						<cntemail>geoservices@elections.ca</cntemail>
+						<hours>8:00 - 16:00</hours>
+					</cntinfo>
+				</proccont>
+			</procstep>
+		</lineage>
+	</dataqual>
+	<spdoinfo>
+		<direct>Vector</direct>
+		<ptvctinf><esriterm Name="FED_CA_1.0_0_ENG"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom Sync="TRUE">4</efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">312</efeacnt><spindex Sync="TRUE">FALSE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm></ptvctinf></spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<planci>
+					<plance>coordinate pair</plance>
+					<coordrep>
+						<absres>0.002857</absres>
+						<ordres>0.002857</ordres>
+					</coordrep>
+					<plandu>meters</plandu>
+				</planci>
+			</planar>
+			<geodetic>
+				<horizdn>North American Datum of 1983</horizdn>
+				<ellips>Geodetic Reference System 80</ellips>
+				<semiaxis>6378137.000000</semiaxis>
+				<denflat>298.257222</denflat>
+			</geodetic>
+		</horizsys>
+		<vertdef>
+			<altsys>
+				<altres>1.000000</altres>
+				<altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
+			</altsys>
+		</vertdef>
+	</spref>
+	<eainfo>
+		<detailed Name="FED_CA_1.0_0_ENG">
+			<enttyp>
+				<enttypl Sync="TRUE">FED_CA_1.0_0_ENG</enttypl>
+				<enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">312</enttypc></enttyp>
+			<attr><attrlabl Sync="TRUE">FID</attrlabl><attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr>
+				<attrlabl>NID</attrlabl>
+				<attrdef>National identifier. A universally unique identifier</attrdef>
+				<attrdefs>EGD</attrdefs>
+				<attalias Sync="TRUE">NID</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">36</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>FEDNUM</attrlabl>
+				<attrdef>A unique number that identifies a FED</attrdef>
+				<attrdefs>EGD</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>11001</rdommin>
+						<rdommax>62001</rdommax>
+					</rdom>
+				</attrdomv>
+				<attalias Sync="TRUE">FEDNUM</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">5</attwidth><atprecis Sync="TRUE">5</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>ENNAME</attrlabl>
+				<attrdef>The official English name for the FED</attrdef>
+				<attrdefs>EGD</attrdefs>
+				<attrdomv>
+					<rdom>
+					</rdom>
+				</attrdomv>
+				<attalias Sync="TRUE">ENNAME</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">100</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>FRNAME</attrlabl>
+				<attrdef>The official French name for the FED</attrdef>
+				<attrdefs>EGD</attrdefs>
+				<attalias Sync="TRUE">FRNAME</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">100</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>PROVCODE</attrlabl>
+				<attrdef>Province or territory covered by the dataset</attrdef>
+				<attrdefs>EGD</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>NL</edomv>
+						<edomvd>Newfoundland and Labrador</edomvd>
+					</edom>
+					<edom>
+						<edomv>NS</edomv>
+						<edomvd>Nova Scotia</edomvd>
+					</edom>
+					<edom>
+						<edomv>PE</edomv>
+						<edomvd>Prince Edward Island</edomvd>
+					</edom>
+					<edom>
+						<edomv>NB</edomv>
+						<edomvd>New Brunswick</edomvd>
+					</edom>
+					<edom>
+						<edomv>QC</edomv>
+						<edomvd>Quebec</edomvd>
+					</edom>
+					<edom>
+						<edomv>ON</edomv>
+						<edomvd>Ontario</edomvd>
+					</edom>
+					<edom>
+						<edomv>MB</edomv>
+						<edomvd>Manitoba</edomvd>
+					</edom>
+					<edom>
+						<edomv>SK</edomv>
+						<edomvd>Saskatchewan</edomvd>
+					</edom>
+					<edom>
+						<edomv>AB</edomv>
+						<edomvd>Alberta</edomvd>
+					</edom>
+					<edom>
+						<edomv>BC</edomv>
+						<edomvd>British Columbia</edomvd>
+					</edom>
+					<edom>
+						<edomv>YT</edomv>
+						<edomvd>Yukon</edomvd>
+					</edom>
+					<edom>
+						<edomv>NT</edomv>
+						<edomvd>Northwest Territories</edomvd>
+					</edom>
+					<edom>
+						<edomv>NU</edomv>
+						<edomvd>Nunavut</edomvd>
+					</edom>
+				</attrdomv>
+				<attalias Sync="TRUE">PROVCODE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">2</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>CREADT</attrlabl>
+				<attrdef>The date when the object was originally created</attrdef>
+				<attrdefs>EGD</attrdefs>
+				<attalias Sync="TRUE">CREADT</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>REVDT</attrlabl>
+				<attrdef>The date when the object was last revised</attrdef>
+				<attrdefs>EGD</attrdefs>
+				<attalias Sync="TRUE">REVDT</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>REPORDER</attrlabl>
+				<attrdef>The year of the representation order the FED is related to. (See details on</attrdef>
+				<attrdefs>EGD</attrdefs>
+				<attalias Sync="TRUE">REPORDER</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>DECPOPCNT</attrlabl>
+				<attrdef>Decennial census population count of the FED as they were established</attrdef>
+				<attrdefs>EGD</attrdefs>
+				<attalias Sync="TRUE">DECPOPCNT</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">8</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>QUIPOPCNT</attrlabl>
+				<attrdef>Quinquennale census population count of the FED as established following</attrdef>
+				<attrdefs>EGD</attrdefs>
+				<attalias Sync="TRUE">QUIPOPCNT</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">8</attwidth><atprecis Sync="TRUE">8</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>ENLEGALDSC</attrlabl>
+				<attrdef>The legal description in English of the electoral boundaries as established by the</attrdef>
+				<attrdefs>EGD</attrdefs>
+				<attalias Sync="TRUE">ENLEGALDSC</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">200</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>FRLEGALDSC</attrlabl>
+				<attrdef>The  legal description in French of the electoral boundaries as established by the</attrdef>
+				<attrdefs>EGD</attrdefs>
+				<attalias Sync="TRUE">FRLEGALDSC</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">200</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>SHAPE_AREA</attrlabl>
+				<attrdef>Area of feature in internal units squared.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Positive real numbers that are automatically generated.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">SHAPE_AREA</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">18</atprecis><attscale Sync="TRUE">11</attscale></attr>
+			<attr>
+				<attrlabl>SHAPE_LEN</attrlabl>
+				<attalias Sync="TRUE">SHAPE_LEN</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">18</atprecis><attscale Sync="TRUE">11</attscale></attr>
+			<attr>
+				<attrlabl>SHAPE</attrlabl>
+				<attrdef>Feature geometry.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">Geometry</attrtype><attwidth Sync="TRUE">0</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+		</detailed>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Elections Canada</cntorg>
+					<cntper>Electoral Geography</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing address</addrtype>
+					<address>257 Slater Street</address>
+					<city>Ottawa</city>
+					<state>Ontario</state>
+					<postal>K1A0M6</postal>
+					<country>Canada</country>
+				</cntaddr>
+				<cntvoice>1-800-661-2638 (Canada and USA)</cntvoice>
+				<cntfax>819-564-5698</cntfax>
+				<cntemail>supportgeobase@nrcan.gc.ca</cntemail>
+				<hours>8:00 - 4:00</hours>
+			</cntinfo>
+		</distrib>
+		<resdesc>Downloadable Data</resdesc>
+	</distinfo>
+	<metainfo>
+		<metd>20100309</metd>
+		<metrd>March 2010</metrd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Elections Canada</cntorg>
+					<cntper>Electoral Geography Division</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>257 Slater Street</address>
+					<city>Ottawa</city>
+					<state>Ontario</state>
+					<postal>K1A0M6</postal>
+					<country>Canada</country>
+				</cntaddr>
+				<cntvoice>1-800-463-6868</cntvoice>
+				<cntfax>613-954-8584</cntfax>
+				<cntemail>geoservices@elections.ca</cntemail>
+				<hours>8:00 - 16:00</hours>
+			</cntinfo>
+		</metc>
+		<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<mettc>local time</mettc>
+		<metsi>
+			<metsc>Unclassified</metsc>
+		</metsi>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+	</metainfo>
+	<dataIdInfo><envirDesc Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcGIS 10.0.0.2414</envirDesc><dataLang><languageCode value="en" country="CA"></languageCode></dataLang><idCitation><resTitle Sync="TRUE">FED_CA_1.0_0_ENG</resTitle><presForm><PresFormCd value="005"></PresFormCd></presForm></idCitation><descKeys><thesaName uuidref="723f6998-058e-11dc-8314-0800200c9a66"></thesaName><keyword Sync="TRUE">002</keyword></descKeys><spatRpType><SpatRepTypCd value="001"></SpatRepTypCd></spatRpType><dataExt><geoEle><GeoBndBox esriExtentType="search"><westBL Sync="TRUE">-180.000000</westBL><eastBL Sync="TRUE">180.000000</eastBL><northBL Sync="TRUE">89.999531</northBL><southBL Sync="TRUE">36.265059</southBL><exTypeCode Sync="TRUE">1</exTypeCode></GeoBndBox></geoEle></dataExt></dataIdInfo><mdLang><languageCode value="en"></languageCode></mdLang><mdChar><CharSetCd value="006"></CharSetCd></mdChar><Esri><DataProperties><itemProps><itemName Sync="TRUE">FED_CA_1.0_0_ENG</itemName><imsContentType Sync="TRUE">002</imsContentType><nativeExtBox><westBL Sync="TRUE">3658201.494286</westBL><eastBL Sync="TRUE">9019156.614286</eastBL><southBL Sync="TRUE">658872.974286</southBL><northBL Sync="TRUE">6083004.862857</northBL><exTypeCode Sync="TRUE">1</exTypeCode></nativeExtBox><itemSize Sync="TRUE">0.000</itemSize><itemLocation><linkage Sync="TRUE">file://\\Echqw2ks03\PS\Common\GeoBase data\english\Shape\FED_CA_1.shp</linkage><protocol Sync="TRUE">Local Area Network</protocol></itemLocation></itemProps><coordRef><type Sync="TRUE">Projected</type><geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn><projcsn Sync="TRUE">PCS_Lambert_Conformal_Conic</projcsn><peXml Sync="TRUE">&lt;ProjectedCoordinateSystem xsi:type='typens:ProjectedCoordinateSystem' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/10.0'&gt;&lt;WKT&gt;PROJCS[&amp;quot;PCS_Lambert_Conformal_Conic&amp;quot;,GEOGCS[&amp;quot;GCS_North_American_1983&amp;quot;,DATUM[&amp;quot;D_North_American_1983&amp;quot;,SPHEROID[&amp;quot;GRS_1980&amp;quot;,6378137.0,298.257222101]],PRIMEM[&amp;quot;Greenwich&amp;quot;,0.0],UNIT[&amp;quot;Degree&amp;quot;,0.0174532925199433]],PROJECTION[&amp;quot;Lambert_Conformal_Conic&amp;quot;],PARAMETER[&amp;quot;False_Easting&amp;quot;,6200000.0],PARAMETER[&amp;quot;False_Northing&amp;quot;,3000000.0],PARAMETER[&amp;quot;Central_Meridian&amp;quot;,-91.86666666666666],PARAMETER[&amp;quot;Standard_Parallel_1&amp;quot;,49.0],PARAMETER[&amp;quot;Standard_Parallel_2&amp;quot;,77.0],PARAMETER[&amp;quot;Latitude_Of_Origin&amp;quot;,63.390675],UNIT[&amp;quot;Meter&amp;quot;,1.0]]&lt;/WKT&gt;&lt;XOrigin&gt;-28455800&lt;/XOrigin&gt;&lt;YOrigin&gt;-28572600&lt;/YOrigin&gt;&lt;XYScale&gt;129952262.74881823&lt;/XYScale&gt;&lt;ZOrigin&gt;-100000&lt;/ZOrigin&gt;&lt;ZScale&gt;10000&lt;/ZScale&gt;&lt;MOrigin&gt;-100000&lt;/MOrigin&gt;&lt;MScale&gt;10000&lt;/MScale&gt;&lt;XYTolerance&gt;0.001&lt;/XYTolerance&gt;&lt;ZTolerance&gt;0.001&lt;/ZTolerance&gt;&lt;MTolerance&gt;0.001&lt;/MTolerance&gt;&lt;HighPrecision&gt;true&lt;/HighPrecision&gt;&lt;/ProjectedCoordinateSystem&gt;</peXml></coordRef></DataProperties><SyncDate>20100929</SyncDate><SyncTime>11444300</SyncTime><ModDate>20100929</ModDate><ModTime>11444300</ModTime></Esri><distInfo><distFormat><formatName Sync="TRUE">Shapefile</formatName></distFormat><distTranOps><transSize Sync="TRUE">0.000</transSize></distTranOps></distInfo><mdHrLv><ScopeCd value="005"></ScopeCd></mdHrLv><mdHrLvName Sync="TRUE">dataset</mdHrLvName><refSysInfo><RefSystem><refSysID><identCode code="0"></identCode></refSysID></RefSystem></refSysInfo><spatRepInfo><VectSpatRep><topLvl><TopoLevCd value="001"></TopoLevCd></topLvl><geometObjs><geoObjTyp><GeoObjTypCd value="002"></GeoObjTypCd><geoObjCnt Sync="TRUE">312</geoObjCnt></geoObjTyp></geometObjs></VectSpatRep></spatRepInfo><mdDateSt Sync="TRUE">20100929</mdDateSt><Voyager><props><DateUpdated>9/29/2010 11:44:43 AM</DateUpdated></props></Voyager></metadata>

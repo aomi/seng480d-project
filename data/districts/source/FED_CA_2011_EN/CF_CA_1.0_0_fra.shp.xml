@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet href="metadata_fr.xsl" type="text/xsl"?>
+<!DOCTYPE metadata SYSTEM "http://www.fgdc.gov/metadata/fgdc-std-001-1998.dtd"><metadata>
+<idinfo>
+<citation>
+<citeinfo>
+<origin>Division de la géographie électorale - Elections Canada</origin>
+<pubdate>Mars 2010</pubdate>
+<title>CF_CA_1_0_FR</title>
+<edition>1.0</edition>
+<geoform>vector digital data</geoform>
+<pubinfo>
+<pubplace>Ottawa</pubplace>
+<publish>Division de la géographie électorale - Elections Canada</publish>
+</pubinfo>
+<onlink>Server=ecgis; Service=ecgis_egdd2; User=egd_ntrl; Version=SDE.DEFAULT</onlink>
+</citeinfo>
+</citation>
+<descript>
+<abstract>Le Canada est divisé en 308 circonscriptions. Un représentant du Parlement ou député est élu pour chacune des circonscriptions.
+Après la diffusion des chiffres de population de chaque recensement décennal, le directeur général des élections détermine le nombre de sièges à la Chambre des communes et publie cette information dans la Gazette du Canada. Les commissions de délimitation des circonscriptions déterminent ensuite les modifications à apporter aux limites des circonscriptions. Les commissions de délimitation des circonscriptions fédérales sont des organismes indépendants qui prennent toutes les décisions concernant les limites proposées et définitives des circonscriptions fédérales.
+Élections Canada offre des services de soutien à la commission de délimitation des circonscriptions dans chaque province. 
+À la lumière des rapports de ces commissions, le directeur général des élections prépare une ordonnance de représentation faisant état des limites, du nom et de la population de chaque CF. L'ordonnance de représentation prend effet à la première dissolution du Parlement qui se produit au moins un an après sa proclamation. L'Ordonnance de représentation de 2003 (proclamée le 25 août 2003) était fondée sur les chiffres de population du recensement de 2001; le nombre de CF, établi à 301 selon l'Ordonnance de représentation de 1996, est passé à 308. L'Ontario s'est accru de trois sièges, alors que l'Alberta et la Colombie-Britannique en ont gagné deux chacun. Le nom des CF peut être modifié n'importe quand par une loi fédérale.</abstract>
+<purpose>Fournir au public une représentation numérique des limites des 308 circonscriptions.
+Ce jeu de données ne doit pas être utilisé pour la détermination des limites, habituellement définies par des documents juridiques et des plans d'arpentage officiels.</purpose>
+</descript>
+<timeperd>
+<timeinfo>
+<sngdate>
+<caldate>2010</caldate>
+</sngdate>
+</timeinfo>
+<current>Mars 2010</current>
+</timeperd>
+<status>
+<progress>Complete</progress>
+<update>Au besoin</update>
+</status>
+<spdom>
+<bounding>
+<westbc>
+-180.000000</westbc>
+<eastbc>
+180.000000</eastbc>
+<northbc>
+89.999531</northbc>
+<southbc>
+36.265059</southbc>
+</bounding>
+</spdom>
+<keywords>
+<theme>
+<themekt>ED</themekt>
+<themekey>circonscriptions électorales fédérales</themekey>
+</theme>
+<place>
+<placekey>Canada</placekey>
+</place>
+</keywords>
+<accconst>Contrat de licence d'utilisation sans restriction</accconst>
+<useconst>Contrat de licence d'utilisation sans restriction</useconst>
+<ptcontac>
+<cntinfo>
+<cntorgp>
+<cntorg>Elections Canada</cntorg>
+<cntper>Division de la géographie électorale</cntper>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>257 Slater Street</address>
+<city>Ottawa</city>
+<state>Ontario</state>
+<postal>K1A0M6</postal>
+<country>Canada</country>
+</cntaddr>
+<cntvoice>1-800-463-6868</cntvoice>
+<cntfax>613-954-8584</cntfax>
+<cntemail>geoservices@elections.ca</cntemail>
+</cntinfo>
+</ptcontac>
+<datacred>Division de la géographie électorale - Elections Canadda</datacred>
+<secinfo>
+<secclass>non classés</secclass>
+</secinfo>
+<native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.3.1.3000</native>
+</idinfo>
+<dataqual>
+<attracc>
+<attraccr>Les valeurs de domaine attribuées aux champs des éléments du jeu de données CF sont validées au moyen des valeurs de domaine définies dans le Catalogue d'entités des circonscriptions électorales fédérales.</attraccr>
+</attracc>
+<logic>La délimitation des circonscriptions a été créée à partir du réseau routier de la Base nationale de données géographiques (BNDG). La représentation des circonscriptions numériques respecte la définition des limites officielles, telle qu'établie par les commissions de délimitation des circonscriptions fédérales de 2003, telle que modifiée.
+L'ensemble de données des CF fournit la couverture nationale de tout le pays. Il n'y a aucune lacune ou chevauchement entre chacun des polygones CF présents dans chacun des jeux de données.
+Le modèle conceptuel des données CF est présenté dans le document Circonscription Fédérale : Modèle Conceptuel des Données  accessible sur le portail GéoBase (www.geobase.ca</logic>
+<complete>Le jeu de données CF comprend une couverture nationale complète pour tout le Canada; ceci comprend les 10 provinces et les 3 territoires septentrionaux. Tous les polygones sont reliés à une table de correspondance.</complete>
+<posacc>
+<horizpa>
+<horizpar>La précision de localisation externe absolue s'entend du degré de correspondance entre la localisation des traits dans une base de données géographiques et leur véritable localisation. Il s'agit de la différence entre les distances séparant deux points connus sur une carte et les distances réelles entre ces deux mêmes points, telles qu'établies par des méthodes d'arpentage conventionnelles.
+La précision de localisation externe absolue des entités spatiales composant le jeu de données d'une CF dépend de la précision absolue des différents ensembles de traits ayant servi à créer les limites de la circonscription. On forme les CF par dissolution spatiale des sections de vote de chaque circonscription. Les réalités géographiques qui servent à représenter les limites d'une section de vote comprennent les constructions humaines comme les routes, les chemins de fer ou les lignes à haute tension, ainsi que les réalités naturelles comme les lacs, les littoraux et les cours d'eau. De plus, beaucoup de ces limites sont définies par des divisions administratives (villes, comtés, cantons).
+De l'information additionnelle sur la précision de localisation des jeux de données numériques des CF et les éléments utilisés pour la création des limites des circonscriptions est disponible à l'adresse suivante : http://dsp-psd.pwgsc.gc.ca/collection_2009/statcan/92-500-G/92-500-g2009001-f-ra.pdf.
+Les caractéristiques de base qui définissent une section de vote proviennent de multiples sources de données, y compris des cartes numériques ou de format papier fondées sur des données originales dont l'échelle va de 1:10 000 à 1:1 000 000. Certaines de ces sources de données ont des niveaux connus de précision de localisation, mais d'autres non. Les processus de maintenance et de mise à jour ont augmenté le niveau d'imprécision dans les jeux de données. 
+Dans ce contexte, il est impossible d'attribuer exactement un degré de précision de localisation au jeu de données. Tout ce qu'on peut en dire, c'est que pour la plupart des zones urbaines et bâties, les données à l'échelle 1:50 000 (précision de ±10 mètres) ont servi de données de référence; dans les zones rurales du Sud du Canada, ce sont les données à l'échelle 1:250 000 (précision de ±300 mètres) et dans les zones nordiques du pays, ce sont les données à l'échelle 1:1 000 000 (précision de ±2 100 à ±4 300 mètres).
+Il existe également des éléments numériques provenant du réseau routier de la BNDG (Base nationale de données géographiques) dont la précision de localisation ne peut être établie. Ces arcs ont été numérisés à partir de cartes papier. Bien que l'information sur les attributs des arcs et la position de ceux ci par rapport à d'autres traits soit très précise, il est impossible d'estimer la précision de localisation absolue de ces CF, les éléments dérivés du réseau routier ne pouvant pas être quantifiés avec précision.</horizpar>
+</horizpa>
+</posacc>
+<lineage>
+<srcinfo>
+<srcscale>1:50,000, 1:250,000, 1:1,000,000</srcscale>
+<typesrc>online</typesrc>
+<srccitea>EGD</srccitea>
+<srccontr>Le jeu de données des CF est formé par dissolution spatiale des limites des sections de vote de chaque circonscription principale. Les éléments sous-jacents qui composent la section proviennent des différents traits de base, notamment le réseau routier, le réseau hydrographique et les autres constructions humaines comme les chemins de fer, les lignes à haute tension et les frontières municipales. La précision des limites individuelles qui font partie du jeu de données de la circonscription est donc liée à la précision des couches de base dont elles sont dérivées.</srccontr>
+</srcinfo>
+<procstep>
+<procdesc>Le jeu de données des CF est formé par dissolution spatiale des limites des sections de vote de chaque circonscription principale. Les éléments sous-jacents qui composent la section proviennent des différents traits de base, notamment le réseau routier, le réseau hydrographique et les autres constructions humaines comme les chemins de fer, les lignes à haute tension et les frontières municipales. La précision des limites individuelles qui font partie du jeu de données de la circonscription est donc liée à la précision des couches de base dont elles sont dérivées
+Les caractéristiques de base qui définissent une section de vote proviennent de multiples sources de données, y compris des cartes numériques ou de format papier fondées sur des données originales dont l'échelle va de 1:10 000 à 1:1 000 000. Certaines de ces sources de données ont des niveaux connus de précision de localisation, mais d'autres non. Les processus de maintenance et de mise à jour ont augmenté le niveau d'imprécision dans les jeux de données. 
+Dans ce contexte, il est impossible d'attribuer exactement un degré de précision de localisation au jeu de données. Tout ce qu'on peut en dire, c'est que pour la plupart des zones urbaines et bâties, les données à l'échelle 1:50 000 (précision de ±10 mètres) ont servi de données de référence; dans les zones rurales du Sud du Canada, ce sont les données à l'échelle 1:250 000 (précision de ±300 mètres) et dans les zones nordiques du pays, ce sont les données à l'échelle 1:1 000 000 (précision de ±2 100 à ±4 300 mètres).
+Il existe également des éléments numériques provenant du réseau routier de la BNDG (Base nationale de données géographiques) dont la précision de localisation ne peut être établie. Ces arcs ont été numérisés à partir de cartes papier. Bien que l'information sur les attributs des arcs et la position de ceux ci par rapport à d'autres traits soit très précise, il est impossible d'estimer la précision de localisation absolue de ces CF, les éléments dérivés du réseau routier ne pouvant pas être quantifiés avec précision.</procdesc>
+<proccont>
+<cntinfo>
+<cntvoice>1-800-463-6868</cntvoice>
+<cntfax>613-954-8584</cntfax>
+<cntemail>geoservices@elections.ca</cntemail>
+<hours>8:00 - 16:00</hours>
+</cntinfo>
+</proccont>
+</procstep>
+</lineage>
+</dataqual>
+<spdoinfo>
+<direct>Vector</direct>
+<ptvctinf>
+<sdtsterm>
+<sdtstype>G-polygon</sdtstype>
+<ptvctcnt>312</ptvctcnt>
+</sdtsterm>
+</ptvctinf>
+</spdoinfo>
+<spref>
+<horizsys>
+<planar>
+<mapproj>
+<mapprojn>Lambert Conformal Conic</mapprojn>
+<lambertc>
+<stdparll>49.000000</stdparll>
+<stdparll>77.000000</stdparll>
+<longcm>-91.866667</longcm>
+<latprjo>63.390675</latprjo>
+<feast>6200000.000000</feast>
+<fnorth>3000000.000000</fnorth>
+</lambertc>
+</mapproj>
+<planci>
+<plance>coordinate pair</plance>
+<coordrep>
+<absres>0.002857</absres>
+<ordres>0.002857</ordres>
+</coordrep>
+<plandu>meters</plandu>
+</planci>
+</planar>
+<geodetic>
+<horizdn>North American Datum of 1983</horizdn>
+<ellips>Geodetic Reference System 80</ellips>
+<semiaxis>6378137.000000</semiaxis>
+<denflat>298.257222</denflat>
+</geodetic>
+</horizsys>
+<vertdef>
+<altsys>
+<altres>1.000000</altres>
+<altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
+</altsys>
+</vertdef>
+</spref>
+<eainfo>
+<detailed>
+<enttyp>
+<enttypl>
+EGD_NTRL.CF_CA_1_0_FR</enttypl>
+<enttypd>Federal Boundaries - Polygon features</enttypd>
+<enttypds>elections Canada - Electoral Geography Division</enttypds>
+</enttyp>
+<attr>
+<attrlabl>IDN</attrlabl>
+<attrdef>Identifiant national. Identifiant unique universel</attrdef>
+<attrdefs>Division de la géographie électorale</attrdefs>
+</attr>
+<attr>
+<attrlabl>NUMCEF</attrlabl>
+<attrdef>Un nombre unique qui identifie une CF</attrdef>
+<attrdefs>Division de la géographie électorale</attrdefs>
+</attr>
+<attr>
+<attrlabl>NOMSEN</attrlabl>
+<attrdef>Nom officiel de la circonscription en anglais</attrdef>
+<attrdefs>Division de la géographie électorale</attrdefs>
+</attr>
+<attr>
+<attrlabl>NOMSFR</attrlabl>
+<attrdef>Nom en français officiel de la circonscription</attrdef>
+<attrdefs>Division de la géographie électorale</attrdefs>
+</attr>
+<attr>
+<attrlabl>CODEPROV</attrlabl>
+<attrdef>Province ou territoire couvert par la base de données</attrdef>
+<attrdefs>Division de la géographie électorale</attrdefs>
+<attrdomv>
+<edom>
+<edomv>NL</edomv>
+<edomvd>Terre-Neuve-et-Labrador</edomvd>
+</edom>
+<edom>
+<edomv>NS</edomv>
+<edomvd>Nouvelle-Écosse</edomvd>
+</edom>
+<edom>
+<edomv>PE</edomv>
+<edomvd>Île-Du-Prince-Édward</edomvd>
+</edom>
+<edom>
+<edomv>NB</edomv>
+<edomvd>Nouveau-Brunswick</edomvd>
+</edom>
+<edom>
+<edomv>QC</edomv>
+<edomvd>Québec</edomvd>
+</edom>
+<edom>
+<edomv>ON</edomv>
+<edomvd>Ontario</edomvd>
+</edom>
+<edom>
+<edomv>MB</edomv>
+<edomvd>Manitoba</edomvd>
+</edom>
+<edom>
+<edomv>SK</edomv>
+<edomvd>Saskatchewan</edomvd>
+</edom>
+<edom>
+<edomv>AB</edomv>
+<edomvd>Alberta</edomvd>
+</edom>
+<edom>
+<edomv>BC</edomv>
+<edomvd>Colombie-Britannique</edomvd>
+</edom>
+<edom>
+<edomv>YT</edomv>
+<edomvd>Yukon</edomvd>
+</edom>
+<edom>
+<edomv>NT</edomv>
+<edomvd>Territories Du Nord-Quest</edomvd>
+</edom>
+<edom>
+<edomv>NU</edomv>
+<edomvd>Nunavut</edomvd>
+</edom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>DATECREAT</attrlabl>
+</attr>
+<attr>
+<attrlabl>DATEREV</attrlabl>
+</attr>
+<attr>
+<attrlabl>DECREPR</attrlabl>
+</attr>
+<attr>
+<attrlabl>COMPOPDEC</attrlabl>
+</attr>
+<attr>
+<attrlabl>COMPOPQUIN</attrlabl>
+</attr>
+<attr>
+<attrlabl>DSCLEGALFR</attrlabl>
+</attr>
+<attr>
+<attrlabl>DSCLEGALEN</attrlabl>
+</attr>
+<attr>
+<attrlabl>SHAPE_AREA</attrlabl>
+<attrdef>Area of feature in internal units squared.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Positive real numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>SHAPE_LEN</attrlabl>
+</attr>
+<attr>
+<attrlabl>SHAPE</attrlabl>
+<attrdef>Feature geometry.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Coordinates defining the features.</udom>
+</attrdomv>
+</attr>
+<attr>
+<attrlabl>SHAPE.AREA</attrlabl>
+</attr>
+<attr>
+<attrlabl>SHAPE.LEN</attrlabl>
+</attr>
+<attr>
+<attrlabl>SHAPE.FID</attrlabl>
+<attrdef>Internal feature number.</attrdef>
+<attrdefs>ESRI</attrdefs>
+<attrdomv>
+<udom>Sequential unique whole numbers that are automatically generated.</udom>
+</attrdomv>
+</attr>
+</detailed>
+</eainfo>
+<distinfo>
+<resdesc>Télécharger les données</resdesc>
+</distinfo>
+<metainfo>
+<metd>20100309</metd>
+<metc>
+<cntinfo>
+<cntorgp>
+<cntorg>Elections Canada</cntorg>
+<cntper>Division de la géographie électorale</cntper>
+</cntorgp>
+<cntaddr>
+<addrtype>mailing and physical address</addrtype>
+<address>257 Slater Street</address>
+<city>Ottawa</city>
+<state>Ontario</state>
+<postal>K1A0M6</postal>
+<country>Canada</country>
+</cntaddr>
+<cntvoice>1-800-463-6868</cntvoice>
+<cntfax>613-954-8584</cntfax>
+<cntemail>geoservices@elections.ca</cntemail>
+<hours>8:00 - 16:00</hours>
+</cntinfo>
+</metc>
+<metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+<metstdv>FGDC-STD-001-1998</metstdv>
+<mettc>local time</mettc>
+<metextns>
+<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+<metprof>ESRI Metadata Profile</metprof>
+</metextns>
+</metainfo>
+</metadata>
