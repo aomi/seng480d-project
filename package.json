@@ -1,8 +1,7 @@
 {
   "scripts": {
-    "start": "snowpack dev",
-    "build": "snowpack build",
-    "test": "web-test-runner \"src/**/*.test.jsx\"",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
     "lint": "prettier --check \"src/**/*.{js,jsx}\""
   },
@@ -10,24 +9,57 @@
     "@chakra-ui/react": "^1.6.10",
     "@emotion/react": "^11.5.0",
     "@emotion/styled": "^11.3.0",
+    "@visx/axis": "^2.4.0",
+    "@visx/brush": "^2.5.0",
+    "@visx/event": "^2.1.2",
+    "@visx/gradient": "^2.1.0",
+    "@visx/grid": "^2.4.0",
     "@visx/group": "^2.1.0",
+    "@visx/hierarchy": "^2.1.2",
+    "@visx/legend": "^2.2.2",
     "@visx/mock-data": "^2.1.2",
+    "@visx/pattern": "^2.1.2",
+    "@visx/responsive": "^2.4.1",
     "@visx/scale": "^2.1.2",
     "@visx/shape": "^2.1.2",
+    "@visx/tooltip": "^2.2.2",
+    "d3-array": "^3.1.1",
+    "d3-time-format": "^4.0.0",
     "framer-motion": "^4.1.17",
-    "leaflet": "^1.7.1",
+    "history": "^5.1.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-leaflet": "^3.2.2"
+    "react-motion": "^0.5.2",
+    "react-router-dom": "^6.0.2",
+    "react-spring": "^9.3.1",
+    "react-vis": "^1.11.7"
   },
   "devDependencies": {
-    "@snowpack/plugin-dotenv": "^2.1.0",
-    "@snowpack/plugin-react-refresh": "^2.5.0",
-    "@snowpack/web-test-runner-plugin": "^0.2.2",
-    "@testing-library/react": "^11.2.6",
-    "@web/test-runner": "^0.13.3",
-    "chai": "^4.3.4",
+    "@types/d3-array": "^3.0.2",
+    "@types/d3-time-format": "^4.0.0",
+    "@types/node": "^16.11.9",
+    "@types/react": "^17.0.36",
+    "@types/react-dom": "^17.0.11",
+    "@types/react-vis": "^1.11.10",
     "prettier": "^2.2.1",
-    "snowpack": "^3.3.7"
+    "react-scripts": "^4.0.3",
+    "typescript": "^4.5.2"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version"
+    ]
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   }
 }
