@@ -4,7 +4,7 @@ import { Polygon } from '@visx/shape';
 import { Group } from '@visx/group';
 import { scaleBand, scaleLinear } from '@visx/scale';
 import { GradientPinkRed } from '@visx/gradient';
-import { ministers } from '../data';
+import { ministers, PartyColor } from '../data';
 import { Box } from '@chakra-ui/layout';
 import {
   Slider,
@@ -13,28 +13,6 @@ import {
   SliderTrack,
 } from '@chakra-ui/slider';
 import { useState } from 'react';
-
-const parties: { [key: string]: string } = {
-  'Canadian Alliance': '#00a8ff',
-  Liberal: '#ff0000',
-  'Bloc Québécois': '#00d9ff',
-  NDP: '#ff6600',
-  PC: '#ffffff',
-  Reform: '',
-  Independent: '#888888',
-  'Ind. CA': '',
-  Conservative: '#0000ff',
-  'Independent Bloc Québécois': '#000000',
-  'Green Party': '#3d9b35',
-  'Indepedent Conservative': '#0000ff',
-  'Conversative Indepedent': '#0000ff',
-  "People's Party": '#ae00ff',
-  'Co-operative Commonwealth Federation': '#ff0000',
-};
-
-export const PartyColor = (party?: string | null): string => {
-  return party ? parties[party] ?? 'ffffff' : '#ffffff';
-};
 
 export const background = '#7f82e3';
 

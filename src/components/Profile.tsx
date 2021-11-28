@@ -1,7 +1,7 @@
 import { Box } from '@chakra-ui/layout';
 import { useParams } from 'react-router';
 import { Link } from 'react-router-dom';
-import { CurrentFormatter } from '../currency';
+import { CurrencyFormatter } from '../data/currency';
 import { expenditures } from '../data';
 
 export const Profile = () => {
@@ -17,7 +17,7 @@ export const Profile = () => {
           <p>{e.constituency_name}</p>
           <p>{e.constituency_size}</p>
           <p>{e.year}</p>
-          <p>{CurrentFormatter(e.total)}</p>
+          <p>{CurrencyFormatter(e.total)}</p>
         </Box>
       ))}
     </Box>

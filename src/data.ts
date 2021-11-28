@@ -1,7 +1,22 @@
-import { PartyColor } from './components/Parties';
 import ExpenditureData from './expenditure_data.json';
 import MinistersData from './ministers.json';
 import PartyDistributionData from './ministers_by_party.json';
+import TotalPartySpendingByYear from './spending_by_party_year.json';
+
+export interface ConstituencyGeodata {
+  name: string;
+  distance: number;
+}
+
+export interface TotalPartySpending {
+  year: number;
+  total: number;
+  party: string;
+  _service_contracts: number;
+  _employees_salaries: number;
+  _travel: number;
+  _hospitality: number;
+}
 
 export interface PartyData {
   parliament: number;
@@ -44,6 +59,8 @@ export interface Expenditure {
   materials_and_supplies: number;
   training: number;
   total: number;
+  distance: number;
+  party: string | null;
 }
 
 export interface Minister {
@@ -62,7 +79,7 @@ export interface Minister {
 // years span from 2012 to 2021 but truncate for performance during development
 export const years = [2021, 2020, 2019, 2018, 2017, 2016];
 
-export const expenditures: Pick<
+export type IExpenditure = Pick<
   Expenditure,
   | 'name'
   | 'year'
@@ -73,14 +90,22 @@ export const expenditures: Pick<
   | '_employees_salaries'
   | '_service_contracts'
   | '_travel'
+  | '_hospitality'
   | 'member'
   | 'designated_traveller'
   | 'total'
->[] = ExpenditureData;
+  | 'distance'
+  | 'party'
+>;
+
+export const expenditures: IExpenditure[] = ExpenditureData;
 
 export const ministers: Minister[] = MinistersData;
 
 export const partyDistribution: PartyData[] = PartyDistributionData;
+
+export const totalPartySpending: TotalPartySpending[] =
+  TotalPartySpendingByYear;
 
 export const uniqueMinisters = Array.from(
   new Set(ministers.map((m) => m.name)),
@@ -92,4 +117,71 @@ export const getPartyColorByName = (name: string | null) => {
 
 export const getConstituenciesByName = (name: string | null) => {
   return ministers.filter((m) => m.name === name);
+};
+
+export const cmp = (a: number, b: number) => +(a > b) - +(a < b);
+
+export const partyColors: { [key: string]: string } = {
+  'Canadian Alliance': '#00a8ff',
+  Liberal: '#d71b1e',
+  'Bloc Québécois': '#00d9ff',
+  NDP: '#ff6600',
+  PC: '#f2f2f2',
+  Reform: '',
+  Independent: '#888888',
+  'Ind. CA': '',
+  Conservative: '#0f2d52',
+  'Independent Bloc Québécois': '#000000',
+  'Green Party': '#3d9b35',
+  'Indepedent Conservative': '#0000ff',
+  'Conversative Indepedent': '#0000ff',
+  "People's Party": '#ae00ff',
+  'Co-operative Commonwealth Federation': '#ff0000',
+};
+
+type ExpenditureType =
+  | '_employees_salaries'
+  | '_service_contracts'
+  | '_travel'
+  | '_hospitality';
+
+export const expenditureCategories: {
+  title: string;
+  color: string;
+  key: ExpenditureType;
+}[] = [
+  {
+    title: 'Salaries',
+    color: '#02c39a',
+    key: '_employees_salaries',
+  },
+  {
+    title: 'Travel',
+    color: '#05668d',
+    key: '_travel',
+  },
+  {
+    title: 'Hospitality',
+    color: '#028090',
+    key: '_hospitality',
+  },
+  {
+    title: 'Contracts',
+    color: '#00a896',
+    key: '_service_contracts',
+  },
+];
+
+export const PartyColor = (party?: string | null): string => {
+  return party ? partyColors[party] ?? 'ffffff' : '#ffffff';
+};
+
+export const partyColorsArray = Object.keys(partyColors)
+  .sort((a, b) => cmp(a.length, b.length))
+  .map((v) => partyColors[v]);
+
+export const partyColorMappings = {
+  getIndex: (party: string) => partyColorsArray.indexOf(partyColors[party]),
+  range: partyColorsArray,
+  domain: partyColorsArray.map((_v, i) => i),
 };

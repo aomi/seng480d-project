@@ -1,20 +1,27 @@
 import { ChakraProvider, extendTheme } from '@chakra-ui/react';
+
 import React from 'react';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import ReactDOM from 'react-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { App } from './App';
 import { Profile } from './components/Profile';
 import { Ministers } from './components/Ministers';
-import { Constituencies } from './components/Constituencies';
-import { Data } from './components/Data';
 import { PartiesVisualization } from './components/Parties';
 import { PolygonsExample } from './examples/polygons';
 import { BarStackExample } from './examples/BarStackExample';
 import { Example } from './examples/PiesExample';
 import { BrushChartExample } from './examples/BrushExample';
-import { Spending } from './components/Spending';
+import { PartySpending } from './components/PartySpending';
+import { Covid } from './components/Covid';
+import { Distance } from './components/Distance';
+import { SpendingByMember } from './components/SpendingByMember';
+import { Map } from './components/Map';
 
-const theme = extendTheme({});
+const theme = extendTheme({
+  colors: {
+    travel: '#1a202c',
+  },
+});
 
 ReactDOM.render(
   <React.StrictMode>
@@ -24,8 +31,6 @@ ReactDOM.render(
           <Route path="/" element={<App />} />
           <Route path="/mp" element={<Ministers />} />
           <Route path="/mp/:name" element={<Profile />} />
-          <Route path="/constituencies" element={<Constituencies />} />
-          <Route path="/data" element={<Data />} />
           <Route
             path="/parties"
             element={<PartiesVisualization width={500} height={1200} />}
@@ -47,7 +52,13 @@ ReactDOM.render(
             path="/examples/brush"
             element={<BrushChartExample height={700} width={1500} />}
           />
-          <Route path="/vis/spending" element={<Spending />} />
+          <Route path="/v/spending" element={<SpendingByMember />} />
+          <Route path="/v/location" element={<PartySpending />} />
+          <Route path="/v/covid19" element={<Covid />} />
+          <Route path="/v/distance" element={<Distance />} />
+
+          {/* TESTING */}
+          <Route path="/map" element={<Map />} />
         </Routes>
       </BrowserRouter>
     </ChakraProvider>

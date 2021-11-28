@@ -3,5 +3,5 @@ const formatter = new Intl.NumberFormat('en-CA', {
   currency: 'CAD',
 });
 
-export const CurrentFormatter = (value: number): string =>
+export const CurrencyFormatter = (value: number): string =>
   formatter.format(value);
