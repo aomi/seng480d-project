@@ -19,7 +19,7 @@ import {
   XAxis,
   YAxis,
 } from 'recharts';
-import { BorderWrapper } from './Distance';
+import { BorderWrapper, SpendingCategoriesInfo, YType } from './Distance';
 
 const cmp = (a: number, b: number) => +(a > b) - +(a < b);
 
@@ -29,6 +29,8 @@ type Props = {
 
 export function SpendingByMember({ minister: name }: Props) {
   const [minister, setMinister] = useState<string | null>();
+
+  const [description, setDescription] = useState('');
 
   const [isStacked, setIsStacked] = useState(true);
 
@@ -57,19 +59,27 @@ export function SpendingByMember({ minister: name }: Props) {
       setShowCategories({ ...showCategories, [key]: e.target.checked });
     };
 
+  const handleCategoryMouseOver =
+    (key: string) => (e: React.MouseEvent<HTMLDivElement>) => {
+      const c = key as YType;
+      setDescription(SpendingCategoriesInfo[c].description);
+    };
+
   return (
     <Box>
       <Box>
         <Flex justify="space-between" align="center">
           <Box>
             <Heading size="lg">Member Spending vs. Time</Heading>
-            <Text>Hello world</Text>
           </Box>
           <Flex align="center">
             <CheckboxGroup>
               <HStack spacing={4} mx="2">
                 {expenditureCategories.map((category) => (
-                  <BorderWrapper color={category.color}>
+                  <BorderWrapper
+                    color={category.color}
+                    onMouseOver={handleCategoryMouseOver(category.key)}
+                  >
                     <Checkbox
                       key={category.key}
                       size="md"
@@ -95,6 +105,7 @@ export function SpendingByMember({ minister: name }: Props) {
             </CheckboxGroup>
           </Flex>
         </Flex>
+        <Text>{description}</Text>
       </Box>
       <ResponsiveContainer width="100%" height={450}>
         <BarChart margin={{ left: 70, bottom: 20 }} data={data}>

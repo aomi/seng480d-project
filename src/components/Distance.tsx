@@ -44,6 +44,7 @@ const x = expenditures.map(
     constituency_size,
     number_of_electors,
     party,
+    _service_contracts,
     _hospitality,
     _employees_salaries,
     _travel,
@@ -57,6 +58,7 @@ const x = expenditures.map(
     constituency_size,
     number_of_electors,
     party,
+    _service_contracts,
     _hospitality,
     _employees_salaries,
     _travel,
@@ -69,19 +71,29 @@ const x = expenditures.map(
 export const BorderWrapper = ({
   children,
   color,
-}: PropsWithChildren<{ color: string }>) => (
-  <Box borderBottom="3px solid" borderColor={color} pb="0.5">
+  onMouseOver,
+}: PropsWithChildren<{
+  color: string;
+  onMouseOver?: React.MouseEventHandler<HTMLDivElement> | undefined;
+}>) => (
+  <Box
+    borderBottom="3px solid"
+    borderColor={color}
+    pb="0.5"
+    onMouseOver={onMouseOver}
+  >
     {children}
   </Box>
 );
 
-type YType =
+export type YType =
   | '_travel'
   | '_employees_salaries'
   | '_hospitality'
+  | '_service_contracts'
   | 'number_of_electors';
 
-const SpendingCategoriesInfo: Record<
+export const SpendingCategoriesInfo: Record<
   YType,
   { title: string; description: string }
 > = {
@@ -89,6 +101,11 @@ const SpendingCategoriesInfo: Record<
     title: 'Travel',
     description:
       'This category includes the travel expenses charged under the Travel Points System and to the Member’s Office Budget.',
+  },
+  _service_contracts: {
+    title: 'Contracts',
+    description:
+      'This category includes all other expenses incurred by Members, such as for service contracts, advertising, gifts, constituency office leases, office operations, and training.',
   },
   _employees_salaries: {
     title: 'Salaries',
