@@ -152,22 +152,22 @@ export const expenditureCategories: {
 }[] = [
   {
     title: 'Salaries',
-    color: '#02c39a',
+    color: '#f03a47',
     key: '_employees_salaries',
   },
   {
     title: 'Travel',
-    color: '#05668d',
+    color: '#af5b5b',
     key: '_travel',
   },
   {
     title: 'Hospitality',
-    color: '#028090',
+    color: '#276fbf',
     key: '_hospitality',
   },
   {
     title: 'Contracts',
-    color: '#00a896',
+    color: '#183059',
     key: '_service_contracts',
   },
 ];
