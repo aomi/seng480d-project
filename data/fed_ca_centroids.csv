@@ -1,0 +1,348 @@
+name,distance
+Edmonton Strathcona,5280272.454904681
+Edmonton-Ouest,5270434.166167244
+Compton--Stanstead,7885377.155479635
+Gaspésie--Les Îles-de-la-Madeleine,8295808.161891147
+Gaspésie--Les Îles-de-la-Madeleine,8596046.923887111
+York-Sud--Weston,7274833.262950436
+Beloeil--Chambly,7761141.526468709
+Berthier--Maskinongé,7750702.95403812
+Pierre-Boucher--Les Patriotes--Verchères,7752491.647293196
+Kitchener-Centre,7195786.685891477
+Kitchener-Sud--Hespeler,7201748.276723632
+Kingston et les Îles,7521044.042340847
+Ottawa--Vanier,7569905.607642396
+Ottawa-Ouest--Nepean,7555821.5720340125
+Parry Sound--Muskoka,7228537.035999392
+Perth--Wellington,7158699.129413083
+Peterborough--Kawartha,7373237.216565532
+Pickering--Uxbridge,7299450.879927585
+Renfrew--Nipissing--Pembroke,7417499.149635042
+Carleton,7567427.397544279
+Jonquière,7887974.049120974
+Dartmouth--Cole Harbour,8536194.980217213
+Halifax,8840121.753468826
+Manicouagan,8228081.327481631
+London--Fanshawe,7139433.659514719
+Manicouagan,8092584.658487368
+London-Centre-Nord,7132743.9797833925
+Manicouagan,8243040.593111395
+Nickel Belt,7124386.567092086
+Laurentides--Labelle,7599664.003535847
+Battlefords--Lloydminster,5447600.438782862
+Richmond Hill,7279616.1315517565
+St. Catharines,7299745.950753938
+Spadina--Fort York,7284102.446402721
+Stormont--Dundas--South Glengarry,7624764.511243747
+Sudbury,7121009.470021874
+Thunder Bay--Rainy River,6391667.20737053
+Thunder Bay--Supérieur-Nord,6659760.139557858
+Timmins--Baie James,7018119.712529165
+Kings--Hants,8483978.393439222
+Sackville--Preston--Chezzetcook,8539569.322063776
+South Shore--St. Margarets,8450652.194280252
+Sydney--Victoria,8706445.413417034
+Nova-Ouest,8385724.907302719
+Abitibi--Baie-James--Nunavik--Eeyou,7685181.912826492
+Abitibi--Témiscamingue,7331142.738493097
+Cape Breton--Canso,8696168.865951579
+Nova-Centre,8594447.492673233
+Cumberland--Colchester,8488511.720368803
+Halifax,8537192.968793377
+Halifax-Ouest,8519308.09625767
+Ahuntsic-Cartierville,7722875.759347896
+Alfred-Pellan,7723241.096244602
+Argenteuil--La Petite-Nation,7618819.015731832
+Cambridge,7206683.234314199
+Chatham-Kent--Leamington,7050880.730002793
+Davenport,7279087.075362946
+London-Ouest,7127911.816374673
+Markham--Thornhill,7287947.632638966
+Thornhill,7275239.905141565
+Toronto--Danforth,7287889.665513238
+Toronto-Centre,7285255.672192008
+Wellington--Halton Hills,7217537.508507708
+Avignon--La Mitis--Matane--Matapédia,8162125.084336486
+Bellechasse--Les Etchemins--Lévis,7945363.068934488
+Beauce,7943113.4497679155
+Beauport--Limoilou,7895228.240196436
+Bécancour--Nicolet--Saurel,7804628.885718173
+Brome--Missisquoi,7809653.275482577
+Brossard--Saint-Lambert,7741404.504193866
+Rimouski-Neigette--Témiscouata--Les Basques,8060761.406894569
+Beauport--Côte-de-Beaupré--Île d’Orléans--Charlevoix,7913529.303548942
+Châteauguay--Lacolle,7734733.861242767
+Chicoutimi--Le Fjord,7924340.630540326
+Drummond,7813220.399681403
+Markham--Unionville,7287017.030223632
+Milton,7239904.59914882
+Vaughan--Woodbridge,7265196.251420434
+University--Rosedale,7283172.273629072
+Waterloo,7190246.220539757
+Charlesbourg--Haute-Saint-Charles,7884734.36204629
+Dorval--Lachine--LaSalle,7722315.61034346
+Don Valley-Est,7287693.006952116
+Don Valley-Nord,7285102.623218803
+Mississauga-Centre,7261993.873650638
+Mississauga-Est--Cooksville,7266186.471274921
+Mississauga--Erin Mills,7258221.027411611
+Whitby,7316369.945369807
+Windsor--Tecumseh,6995743.923823984
+Willowdale,7280541.342978357
+Vaudreuil--Soulanges,7690279.519064825
+Nanaimo--Ladysmith,4441954.442763568
+North Island--Powell River,4502012.34663065
+Don Valley-Ouest,7284291.804623362
+Dufferin--Caledon,7222494.514165236
+Durham,7324076.8266995605
+Elgin--Middlesex--London,7140075.408069939
+Flamborough--Glanbrook,7237540.8942549955
+Glengarry--Prescott--Russell,7625845.482363921
+Oakville,7260095.343362818
+Sarnia--Lambton,7050395.317594215
+Toronto--St. Paul's,7281402.045444398
+Scarborough--Agincourt,7289301.034465587
+Windsor-Ouest,6986908.307171175
+Outremont,7729013.5986024905
+York-Centre,7276504.619490101
+Eglinton--Lawrence,7279555.730675076
+Mississauga--Lakeshore,7267229.835300133
+Mississauga--Malton,7261557.123259716
+Nipissing--Timiskaming,7273857.694386794
+Egmont,8439486.272294544
+Cardigan,8558926.788297996
+Charlottetown,8520556.056941831
+Humber River--Black Creek,7271382.660503567
+Thérèse-De Blainville,7708583.603948747
+Bourassa,7725920.124879511
+Nepean,7560800.950779501
+Scarborough-Sud-Ouest,7294054.785473182
+Mississauga--Streetsville,7254644.622319849
+Simcoe--Grey,7218812.723801442
+Simcoe-Nord,7247222.895816497
+Malpeque,8496037.394987447
+York--Simcoe,7276706.144026898
+Brandon--Souris,5837126.700997984
+Brandon--Souris,5802904.580104214
+Charleswood--St. James--Assiniboia--Headingley,6009597.927054984
+Churchill--Keewatinook Aski,6275828.951757334
+Dauphin--Swan River--Neepawa,5875812.509356566
+Desnethé--Missinippi--Rivière Churchill,5859268.98619816
+Moose Jaw--Lake Centre--Lanigan,5546669.39618856
+Prince Albert,5713209.901431048
+Regina--Lewvan,5562344.201478191
+Regina--Qu'Appelle,5639200.033176195
+Regina--Wascana,5567694.163160301
+Saskatoon--Grasswood,5539949.685251419
+Sentier Carlton--Eagle Creek,5531616.559037117
+Hochelaga,7733597.636659592
+Gatineau,7570407.234175676
+Honoré-Mercier,7730807.718145113
+Hull--Aylmer,7558487.091374706
+Joliette,7685018.999316902
+Lac-Saint-Jean,7761149.66724204
+Calgary Confederation,5065406.504410033
+Calgary-Centre,5062798.497334055
+Calgary Midnapore,5056071.361346979
+Calgary Shepard,5063973.281098456
+Elmwood--Transcona,6031286.002662972
+Provencher,6081002.174196715
+Saint-Boniface--Saint-Vital,6026765.966111574
+Kildonan--St. Paul,6031205.345759923
+Portage--Lisgar,5948707.250995592
+Selkirk--Interlake--Eastman,6115164.667930621
+Selkirk--Interlake--Eastman,6039225.171062067
+Foothills,4992140.074237928
+Saskatoon--University,5545701.587154584
+Saskatoon-Ouest,5538222.907798011
+Souris--Moose Mountain,5610530.668460357
+Yorkton--Melville,5756833.168308254
+Newmarket--Aurora,7275168.79992321
+Niagara-Centre,7304917.182115938
+Selkirk--Interlake--Eastman,6000727.390199874
+Winnipeg-Nord,6023105.43083409
+Selkirk--Interlake--Eastman,5964842.5596326385
+Winnipeg-Centre,6021459.569285038
+Winnipeg-Sud,6019415.662387978
+Cypress Hills--Grasslands,5342428.860432743
+La Prairie,7736151.425043925
+La Pointe-de-l'Île,7734873.299899477
+Lac-Saint-Louis,7708882.021696055
+LaSalle--Émard--Verdun,7732296.731899138
+Niagara Falls,7315733.133581376
+Niagara-Ouest,7283338.706942394
+Winnipeg-Centre-Sud,6019662.785370064
+Calgary Forest Lawn,5071951.282476497
+Calgary Heritage,5054114.32588504
+Laurier--Sainte-Marie,7732322.717360333
+Laval--Les Îles,7711986.041240692
+Essex,7003336.171879687
+Sault Ste. Marie,6887973.009317
+Scarborough-Centre,7292230.497098341
+Calgary Nose Hill,5070038.627875091
+Calgary Rocky Ridge,5066663.204577156
+Etobicoke-Centre,7270181.672765372
+Etobicoke--Lakeshore,7273395.049447641
+Scarborough--Guildwood,7297255.113644394
+Scarborough-Nord,7293592.101237516
+Scarborough--Rouge Park,7300057.754395474
+Calgary Signal Hill,5058780.738872267
+Calgary Skyview,5076014.766601779
+Guelph,7214600.0318567045
+Haldimand--Norfolk,7226934.029835069
+Haliburton--Kawartha Lakes--Brock,7334389.947947331
+Hamilton-Centre,7248882.56061014
+Etobicoke-Nord,7267138.149194053
+Hamilton-Est--Stoney Creek,7257861.983332097
+Hamilton-Ouest--Ancaster--Dundas,7238979.128767047
+Hastings--Lennox and Addington,7437014.498864372
+Huron--Bruce,7115348.754406021
+Kenora,6526364.291099079
+King--Vaughan,7264047.279789383
+Kitchener--Conestoga,7183734.156720193
+Lambton--Kent--Middlesex,7080097.103945997
+Lanark--Frontenac--Kingston,7502963.637517553
+Oakville-Nord--Burlington,7254001.528970203
+Ottawa-Centre,7564046.203017816
+Oshawa,7326312.135875254
+Oxford,7175156.527294221
+Edmonton-Centre,5278578.6496720705
+Edmonton Griesbach,5284867.602604024
+Hamilton Mountain,7248373.721991013
+Kanata--Carleton,7534371.1275598025
+Leeds--Grenville--Thousand Islands et Rideau Lakes,7556013.567058793
+Markham--Stouffville,7288686.445278114
+Northumberland--Peterborough-Sud,7385797.366093065
+Orléans,7580524.716490501
+Ottawa-Sud,7569909.383782866
+Parkdale--High Park,7277423.113407836
+Edmonton Mill Woods,5277936.579843279
+Edmonton Riverbend,5270744.577334048
+Edmonton Manning,5293878.9962626565
+Edmonton--Wetaskiwin,5227119.15912601
+Aurora--Oak Ridges--Richmond Hill,7277775.605974472
+Barrie--Innisfil,7260610.694795878
+Barrie--Springwater--Oro-Medonte,7249186.356598035
+Baie de Quinte,7459238.56639731
+Beaches--East York,7290283.095450773
+Brampton-Ouest,7247477.298288612
+Bruce--Grey--Owen Sound,7148533.360656058
+Brampton-Centre,7256085.373235523
+Brampton-Sud,7252550.223350402
+Labrador,8435024.910040269
+Coast of Bays--Central--Notre Dame,8973088.005113496
+Long Range Mountains,8836104.541747894
+St. John's-Est,9218524.118590923
+St. John's-Sud--Mount Pearl,9235580.734290877
+Brampton-Est,7257232.414576118
+Brampton-Nord,7251213.496689385
+Brantford--Brant,7217584.5037538875
+Burlington,7250690.3573563425
+Steveston--Richmond-Est,4472257.688259432
+Surrey-Centre,4495258.446986365
+Surrey--Newton,4490115.923594031
+Vancouver-Centre,4492353.714342408
+Vancouver-Est,4494059.4796607755
+Vancouver Granville,4487812.741920898
+Vancouver Kingsway,4491322.01468267
+Vancouver Quadra,4485988.4244368095
+Vancouver-Sud,4488617.331837626
+Victoria,4402910.042200658
+West Vancouver--Sunshine Coast--Sea to Sky Country,4552051.128491566
+Yukon,5642477.153490624
+Territoires du Nord-Ouest,6656767.4633174585
+Nunavut,7417623.181899346
+Bonavista--Burin--Trinity,9110364.555454282
+Avalon,9202137.387872685
+Port Moody--Coquitlam,4504627.855104511
+Saanich--Gulf Islands,4437211.114862976
+Prince George--Peace River--Northern Rockies,5213251.953529511
+Richmond-Centre,4475992.448647319
+Esquimalt--Saanich--Sooke,4384455.716422827
+Skeena--Bulkley Valley,4942113.80231028
+Okanagan-Sud--Kootenay-Ouest,4731787.494451519
+Acadie--Bathurst,8314993.047049482
+Beauséjour,8414423.14711416
+Fredericton,8284394.868937554
+Fundy Royal,8366784.418710208
+Madawaska--Restigouche,8170559.123787979
+Miramichi--Grand Lake,8299911.536823538
+Moncton--Riverview--Dieppe,8398162.60670566
+Nouveau-Brunswick-Sud-Ouest,8271870.148856978
+Saint John--Rothesay,8325811.611155369
+Tobique--Mactaquac,8202362.382898489
+Abbotsford,4509555.072614485
+Surrey-Sud--White Rock,4485006.8910448
+Longueuil--Charles-LeMoyne,7742012.374828358
+Lévis--Lotbinière,7877386.273579983
+Longueuil--Saint-Hubert,7741096.7515189685
+Banff--Airdrie,5023465.947417647
+Battle River--Crowfoot,5269562.6113408385
+Bow River,5113116.57498731
+Fort McMurray--Cold Lake,5629325.275592943
+Grande Prairie--Mackenzie,5429838.823759357
+Lakeland,5397871.99364526
+Lethbridge,5047514.438784759
+Medicine Hat--Cardston--Warner,5115312.116620008
+Peace River--Westlock,5386314.585045059
+Red Deer--Mountain View,5130634.987991473
+Red Deer--Lacombe,5191954.716322273
+St. Albert--Edmonton,5281050.772285894
+Sherwood Park--Fort Saskatchewan,5301409.918785714
+Sturgeon River--Parkland,5281686.74355829
+Yellowhead,5100626.4516336415
+Burnaby-Nord--Seymour,4504008.657787347
+Burnaby-Sud,4493255.777503011
+Cariboo--Prince George,4783155.970059761
+Central Okanagan--Similkameen--Nicola,4653396.612319204
+Chilliwack--Hope,4559796.345314417
+Coquitlam--Port Coquitlam,4521973.31785869
+Courtenay--Alberni,4399645.60308945
+Courtenay--Alberni,4452173.328862679
+Cowichan--Malahat--Langford,4396080.21589078
+Kamloops--Thompson--Cariboo,4806909.316246212
+Kelowna--Lake Country,4720995.754687814
+Kootenay--Columbia,4892724.846499563
+Louis-Hébert,7884712.595876291
+Louis-Saint-Laurent,7879797.999984419
+Mégantic--L'Érable,7910482.037468378
+Mirabel,7692768.748731831
+Pontiac,7485608.583833
+Portneuf--Jacques-Cartier,7841099.979058852
+Pierrefonds--Dollard,7709405.309824534
+Québec,7891420.046307039
+Cloverdale--Langley City,4494988.770326182
+Delta,4475367.934194036
+Fleetwood--Port Kells,4497858.051068167
+Montarville,7750798.1582396915
+Montcalm,7718292.427249967
+Montmagny--L'Islet--Kamouraska--Rivière-du-Loup,7986824.732266975
+Mont-Royal,7725813.999617632
+Notre-Dame-de-Grâce--Westmount,7728718.851404039
+Repentigny,7739439.552427048
+Richmond--Arthabaska,7854576.049754173
+Rivière-des-Mille-Îles,7705185.726123861
+Rivière-du-Nord,7694561.221063857
+Papineau,7727898.515217152
+Langley--Aldergrove,4499398.9416468665
+Mission--Matsqui--Fraser Canyon,4627416.220526981
+New Westminster--Burnaby,4494484.335627796
+North Okanagan--Shuswap,4796250.271259414
+North Vancouver,4510893.485712947
+Pitt Meadows--Maple Ridge,4541679.37965473
+Marc-Aurèle-Fortin,7714735.267905334
+Saint-Hyacinthe--Bagot,7791073.487496973
+Saint-Jean,7761963.356820498
+Rosemont--La Petite-Patrie,7730392.0022652345
+Saint-Léonard--Saint-Michel,7728500.998746624
+Saint-Maurice--Champlain,7687494.274572437
+Salaberry--Suroît,7695372.731294709
+Shefford,7807417.151575846
+Saint-Laurent,7721157.756644065
+Sherbrooke,7865014.216704201
+Terrebonne,7720171.783687524
+Trois-Rivières,7794988.620726519
+Ville-Marie--Le Sud-Ouest--Île-des-Soeurs,7734128.2466108315
+Vimy,7718890.304615591
+Ajax,7311769.347403735
+Algoma--Manitoulin--Kapuskasing,6951669.173462809
